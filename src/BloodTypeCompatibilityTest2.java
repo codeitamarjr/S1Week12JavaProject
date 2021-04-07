@@ -12,9 +12,9 @@ public class BloodTypeCompatibilityTest2 {
         //*** IF THE USER INPUTS AB+ FOR EXAMPLE
 
         // JAVA WILL TEST IF THE AB+ IS NOT EQUALS TO ANY REAL BLOOD TYPE, IN THIS CASE YES SO JAVA WILL JUMP THE WHILE BLOCK
-        while ( !bloodType.equals("A+") & !bloodType.equals("O+") & !bloodType.equals("B+") &
-                !bloodType.equals("AB+") & !bloodType.equals("A-") & !bloodType.equals("O-") &
-                !bloodType.equals("B-") & !bloodType.equals("AB-")) {
+        while ( !bloodType.equals("A+") && !bloodType.equals("O+") & !bloodType.equals("B+") &&
+                !bloodType.equals("AB+") && !bloodType.equals("A-") & !bloodType.equals("O-") &&
+                !bloodType.equals("B-") && !bloodType.equals("AB-")) {
             System.out.println("Blood type code doesn’t exist, please try again!");
             bloodType = keyboard.next();
         }

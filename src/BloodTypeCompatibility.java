@@ -10,9 +10,9 @@ public class BloodTypeCompatibility {
         Scanner keyboard = new Scanner(System.in); //create a new object to read from the keyboard information
         String bloodType = keyboard.next(); // Ask user to input their blood type following the instruction printed above
 
-        while ( !bloodType.equals("A+") & !bloodType.equals("O+") & !bloodType.equals("B+") &
-                !bloodType.equals("AB+") & !bloodType.equals("A-") & !bloodType.equals("O-") &
-                !bloodType.equals("B-") & !bloodType.equals("AB-")) {
+        while ( !bloodType.equals("A+") && !bloodType.equals("O+") && !bloodType.equals("B+") &&
+                !bloodType.equals("AB+") && !bloodType.equals("A-") && !bloodType.equals("O-") &&
+                !bloodType.equals("B-") && !bloodType.equals("AB-")) {
             System.out.println("Blood type code doesn’t exist, please try again!");
             // In a WHILE the variable is not equals to A+ and O+ and so on, the JAVA will read and execute this line
             // asking for the user to input the correct blood type...
