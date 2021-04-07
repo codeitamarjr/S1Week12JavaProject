@@ -9,6 +9,7 @@ A local clinic needs a program to education people about blood type compatibilit
 A person can only give blood to someone with compatible blood antigens. If a person receives blood from someone with an incompatible blood type, it can cause a life threatening immune system reaction. The blood transfusion will likely fail.
 Your program should ask a user’s blood type first, then if she/he want to learn about giving or receiving blood. Based on the blood type and choice of give or receive, your program will print the corresponding compatible blood types. 
 NOTE, if the blood type or give/receive choice entered doesn’t exist, the program should promote the user to re-enter it again.
+
 Example 1:
 
 Please provide blood type (A+, O+, B+, AB+, A-, O-, B-, AB-): X
