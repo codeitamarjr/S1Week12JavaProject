@@ -6,8 +6,6 @@ public class Main {
 
 
         Identification.name();
-
-
         BloodTypeCompatibility.bloodTest();
 
 

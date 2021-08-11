@@ -10,7 +10,11 @@ public class BloodTypeCompatibility {
         System.out.println("Do you want to know about giving or receiving (1 for Gives and 2 for Receives):");
         int optionBlood = keyboard.nextInt(); // Ask for the user to input the option of Give or Receive, 1 or 2.
 
-
+        while (optionBlood<1 | optionBlood>2){ // In a WHILE the option is not GIVE or RECEIVE this line will be repeated
+            // until the user input the correct option of Give or Receive which is 1 or 2.
+            System.out.println("Choice doesn’t exist, please try again!");
+            optionBlood = keyboard.nextInt();
+        } // If the variable optionBlood is 1 or 2 the whole block will be jumped
 
         System.out.println("Please provide blood type (A+, O+, B+, AB+, A-, O-, B-, AB-):");
 
@@ -27,11 +31,7 @@ public class BloodTypeCompatibility {
 
 
 
-        while (optionBlood<1 | optionBlood>2){ // In a WHILE the option is not GIVE or RECEIVE this line will be repeated
-            // until the user input the correct option of Give or Receive which is 1 or 2.
-            System.out.println("Choice doesn’t exist, please try again!");
-            optionBlood = keyboard.nextInt();
-        } // If the variable optionBlood is 1 or 2 the whole block will be jumped
+
 
         // If the optionBlood is 1 which means GIVE the JAVA will execute the statements bellow:
         if(optionBlood==1){
